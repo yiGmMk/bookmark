@@ -1,3 +1,4 @@
+- [开源许可选择/对比 - Find Your Perfect License](https://open-source-license-chooser.toolsnav.top/zh/license-comparison/) #tool#2024
 - [Zeli - 用中文阅读Hacker News和AI论文](https://zeli.app/zh) 用AI总结HackNews #blog
 - [LLM x 书签收藏：摘要 & 全文索引 - Nekonull's Garden](https://nekonull.me/posts/llm_x_bookmark/) #tool#2024
 - [osmoscraft/osmosmemo](https://github.com/osmoscraft/osmosmemo) 用github管理书签 #tool
