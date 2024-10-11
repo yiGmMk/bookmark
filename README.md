@@ -1,3 +1,4 @@
+- [LLM x 书签收藏：摘要 & 全文索引 - Nekonull's Garden](https://nekonull.me/posts/llm_x_bookmark/) #tool#2024
 - [osmoscraft/osmosmemo](https://github.com/osmoscraft/osmosmemo) 用github管理书签 #tool
 
 # About
