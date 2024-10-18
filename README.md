@@ -1,3 +1,4 @@
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 手机投屏工具 #tool
 - [Why is single threaded Redis so fast](https://www.pixelstech.net/article/1677580861-Why-is-single-threaded-Redis-so-fast) #blog
 - [开源许可选择/对比 - Find Your Perfect License](https://open-source-license-chooser.toolsnav.top/zh/license-comparison/) #tool#2024
 - [Zeli - 用中文阅读Hacker News和AI论文](https://zeli.app/zh) 用AI总结HackNews #blog
