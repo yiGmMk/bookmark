@@ -1,3 +1,4 @@
+- [Ory与Keycloak和Authelia等替代品相比如何？从经验…| Hacker News --- How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper... | Hacker News](https://news.ycombinator.com/item?id=25763320) 比较Keycloak/Okta/Authelia #admin
 - [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 手机投屏工具 #tool
 - [Why is single threaded Redis so fast](https://www.pixelstech.net/article/1677580861-Why-is-single-threaded-Redis-so-fast) #blog
 - [开源许可选择/对比 - Find Your Perfect License](https://open-source-license-chooser.toolsnav.top/zh/license-comparison/) #tool#2024
