@@ -1,3 +1,4 @@
+- [Debugging Till Dawn: How Git Bisect Saved My Demo](https://www.mikebuss.com/posts/debugging-till-dawn) git bisect使用,使用二分算法定位 #git#tool
 - [Nginx Logging: A Comprehensive Guide | Better Stack Community](https://betterstack.com/community/guides/logging/how-to-view-and-configure-nginx-access-and-error-logs/) nginx日志 #blog
 - [Ory与Keycloak和Authelia等替代品相比如何？从经验…| Hacker News --- How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper... | Hacker News](https://news.ycombinator.com/item?id=25763320) 比较Keycloak/Okta/Authelia #admin
 - [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 手机投屏工具 #tool
