@@ -1,3 +1,4 @@
+- [系统设计面试：内幕指南](https://learning-guide.gitbook.io/system-design-interview/) #blog
 - [APIParkLab/APIPark](https://github.com/APIParkLab/APIPark) 集成各种gpt #tool
 - [使用 CoreDNS 搭建本地域名服务](https://george.betterde.com/devops/20221120.html) coredns #tool
 - [Debugging Till Dawn: How Git Bisect Saved My Demo](https://www.mikebuss.com/posts/debugging-till-dawn) git bisect使用,使用二分算法定位 #git#tool
