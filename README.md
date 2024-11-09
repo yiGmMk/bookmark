@@ -1,3 +1,4 @@
+- [journey-ad/Moe-Counter: Moe counter badge with multiple themes! / 多种风格可选的萌萌计数器](https://github.com/journey-ad/Moe-Counter) 网站访问统计工具 #tool
 - [系统设计面试：内幕指南](https://learning-guide.gitbook.io/system-design-interview/) #blog
 - [APIParkLab/APIPark](https://github.com/APIParkLab/APIPark) 集成各种gpt #tool
 - [使用 CoreDNS 搭建本地域名服务](https://george.betterde.com/devops/20221120.html) coredns #tool
