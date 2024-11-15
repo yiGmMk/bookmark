@@ -1,3 +1,4 @@
+- [What is AppData, and what are Local, LocalLow, and Roaming?](https://www.xda-developers.com/appdata/) Windwos里的AppData/Local/LocalLow/Roaming目录及作用 #blog
 - [Modern PATH environment variable](https://blog.izissise.net/posts/env-path/) 设置PATH变量,go,python等 #blog
 - [ViggoZ/producthunt-daily-hot](https://github.com/ViggoZ/producthunt-daily-hot) producthunt每日热榜 #ai#tool#git
 - [PH今日热榜 - Decohack](https://decohack.com/category/producthunt/) 作者使用openai总结ProductHunter每日热榜 #03#tool#ai
