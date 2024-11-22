@@ -1,3 +1,4 @@
+- [Server-Side Rendering for Better Web Apps - Builder.io](https://www.builder.io/m/explainers/server-side-rendering) SSR/服务端渲染介绍,优/缺点 #blog
 - [yiGmMk/aiwechat-vercel](https://github.com/yiGmMk/aiwechat-vercel) 微信公众号接入chatgpt
 - [What is AppData, and what are Local, LocalLow, and Roaming?](https://www.xda-developers.com/appdata/) Windwos里的AppData/Local/LocalLow/Roaming目录及作用 #blog
 - [Modern PATH environment variable](https://blog.izissise.net/posts/env-path/) 设置PATH变量,go,python等 #blog
