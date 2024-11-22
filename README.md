@@ -1,3 +1,4 @@
+- [urlapp](https://urlapp.org/) urlapp托管网站
 - [[隆重介绍] urlapp-一种小众但有趣的 app 形式 - V2EX](https://www.v2ex.com/t/1059349) urlapp,单个html部署实现一个app
 - [Server-Side Rendering for Better Web Apps - Builder.io](https://www.builder.io/m/explainers/server-side-rendering) SSR/服务端渲染介绍,优/缺点 #blog
 - [yiGmMk/aiwechat-vercel](https://github.com/yiGmMk/aiwechat-vercel) 微信公众号接入chatgpt
