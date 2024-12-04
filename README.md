@@ -1,3 +1,4 @@
+- [这样设置Prompt，让ChatGPT输出更好的效果！为ChatGPT提供更合适的Prompt输入，我们就能得到更优质的 - 掘金](https://juejin.cn/post/7232480698879623223) 和吴恩达学写Prompt #ai#2024-12
 - [urlapp](https://urlapp.org/) urlapp托管网站
 - [[隆重介绍] urlapp-一种小众但有趣的 app 形式 - V2EX](https://www.v2ex.com/t/1059349) urlapp,单个html部署实现一个app
 - [Server-Side Rendering for Better Web Apps - Builder.io](https://www.builder.io/m/explainers/server-side-rendering) SSR/服务端渲染介绍,优/缺点 #blog
