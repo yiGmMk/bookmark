@@ -1,3 +1,4 @@
+- [cline/cline](https://github.com/cline/cline) 强大的vscode 插件,可以各种任务,使用浏览器,执行命令,创建文件等 #ai#tool
 - [这样设置Prompt，让ChatGPT输出更好的效果！为ChatGPT提供更合适的Prompt输入，我们就能得到更优质的 - 掘金](https://juejin.cn/post/7232480698879623223) 和吴恩达学写Prompt #ai#2024-12
 - [urlapp](https://urlapp.org/) urlapp托管网站
 - [[隆重介绍] urlapp-一种小众但有趣的 app 形式 - V2EX](https://www.v2ex.com/t/1059349) urlapp,单个html部署实现一个app
