@@ -1,6 +1,6 @@
 title: Bookmark Collection
 description: A collection of interesting bookmarks and articles
-baseurl: "/bookmark" # 仓库名称作为baseurl
+baseurl: "/" # 仓库名称作为baseurl
 url: "" # 这里会根据GitHub Pages自动设置
 
 # Build settings
@@ -30,3 +30,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+social:
+  github: "yiGmMk"
