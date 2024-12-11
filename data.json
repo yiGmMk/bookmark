@@ -46,5 +46,11 @@
     "title": "使用 CoreDNS 搭建本地域名服务",
     "url": "https://george.betterde.com/devops/20221120.html",
     "timestamp": 1733900061
+  },
+  {
+    "month": "202412",
+    "title": "Debugging Till Dawn: How Git Bisect Saved My Demo",
+    "url": "https://www.mikebuss.com/posts/debugging-till-dawn",
+    "timestamp": 1733903853
   }
 ]
