@@ -41,8 +41,9 @@ jobs:
           ls -al bookmark
           python bookmark/scripts/process_changes.py
 
-      - name: Commit changes to bookmark-summary
+      - name: Commit changes to bookmark
         run: |
+          cd bookmark
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
