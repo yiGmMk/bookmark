@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-11) [SAML: A technical primer — SSOReady Docs](_posts/202412/2024-12-11-saml-a-technical-primer-%E2%80%94-ssoready-docs.md)
 - (2024-12-11) [Nginx Logging: A Comprehensive Guide | Better Stack Community](_posts/202412/2024-12-11-nginx-logging-a-comprehensive-guide-better-stack-community.md)
 - (2024-12-11) [Debugging Till Dawn: How Git Bisect Saved My Demo](_posts/202412/2024-12-11-debugging-till-dawn-how-git-bisect-saved-my-demo.md)
 - (2024-12-11) [使用 CoreDNS 搭建本地域名服务](_posts/202412/2024-12-11-%E4%BD%BF%E7%94%A8-coredns-%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0%E5%9F%9F%E5%90%8D%E6%9C%8D%E5%8A%A1.md)

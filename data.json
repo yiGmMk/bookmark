@@ -58,5 +58,11 @@
     "title": "Nginx Logging: A Comprehensive Guide | Better Stack Community",
     "url": "https://betterstack.com/community/guides/logging/how-to-view-and-configure-nginx-access-and-error-logs/",
     "timestamp": 1733907545
+  },
+  {
+    "month": "202412",
+    "title": "SAML: A technical primer — SSOReady Docs",
+    "url": "https://ssoready.com/docs/saml/saml-technical-primer",
+    "timestamp": 1733909105
   }
 ]
