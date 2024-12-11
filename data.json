@@ -76,5 +76,11 @@
     "title": "Genymobile/scrcpy",
     "url": "https://github.com/Genymobile/scrcpy",
     "timestamp": 1733909953
+  },
+  {
+    "month": "202412",
+    "title": "美团技术团队-美团大规模KV存储挑战与架构实践",
+    "url": "https://tech.meituan.com/2024/03/15/kv-squirrel-cellar.html",
+    "timestamp": 1733912608
   }
 ]
