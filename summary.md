@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-11) [Modern PATH environment variable](202412/2024-12-11-modern-path-environment-variable.md)
 - (2024-12-11) [What is AppData, and what are Local, LocalLow, and Roaming?](202412/2024-12-11-what-is-appdata%2C-and-what-are-local%2C-locallow%2C-and-roaming.md)
 - (2024-12-11) [Server-Side Rendering for Better Web Apps - Builder.io](202412/2024-12-11-server-side-rendering-for-better-web-apps---builder.io.md)
 - (2024-12-11) [[隆重介绍] urlapp-一种小众但有趣的 app 形式 - V2EX](202412/2024-12-11-%5B%E9%9A%86%E9%87%8D%E4%BB%8B%E7%BB%8D%5D-urlapp-%E4%B8%80%E7%A7%8D%E5%B0%8F%E4%BC%97%E4%BD%86%E6%9C%89%E8%B6%A3%E7%9A%84-app-%E5%BD%A2%E5%BC%8F---v2ex.md)

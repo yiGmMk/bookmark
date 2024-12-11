@@ -22,5 +22,11 @@
     "title": "What is AppData, and what are Local, LocalLow, and Roaming?",
     "url": "https://www.xda-developers.com/appdata/",
     "timestamp": 1733888138
+  },
+  {
+    "month": "202412",
+    "title": "Modern PATH environment variable",
+    "url": "https://blog.izissise.net/posts/env-path/",
+    "timestamp": 1733888304
   }
 ]
