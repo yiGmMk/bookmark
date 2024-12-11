@@ -29,3 +29,5 @@
 - New content will appear on top when you click "save" button in the tool.
 - When this file gets longer, you can search use <kbd>Ctrl</kbd> + <kbd>F</kbd>, or <kbd>Command</kbd> + <kbd>F</kbd> on Mac.
 - To capture now content, activate the extension with <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>
+- [开源工具,bookmark-summary,使用ai自动总结收藏内容](https://github.com/jerrylususu/bookmark-summary)
+  读取 bookmark 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark 中的 Github Action 一起使用。

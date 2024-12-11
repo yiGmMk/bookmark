@@ -13,6 +13,8 @@ from urllib.parse import quote
 from waybackpy import WaybackMachineSaveAPI
 
 # -- configurations begin --
+BOOKMARK_COLLECTION_REPO_NAME: str = "bookmark"
+BOOKMARK_SUMMARY_REPO_NAME: str = "bookmark"
 MAX_CONTENT_LENGTH: int = 32 * 1024  # 32KB
 NO_SUMMARY_TAG: str = "#nosummary"
 # -- configurations end --
@@ -165,13 +167,13 @@ def get_summary_file_path(title: str, timestamp: int, month: Optional[str] = Non
     else:
         if month is None:
             month = CURRENT_MONTH
-        root: Path = Path("", month)
+        root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME, month)
     summary_path: Path = Path(root, summary_filename)
     return summary_path
 
 def get_text_content_path(title: str, in_summary_md: bool = False) -> Path:
     text_content_filename: str = f"{CURRENT_DATE}-{slugify(title)}_raw.md"
-    root: Path = Path("", CURRENT_MONTH)
+    root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME, CURRENT_MONTH)
     if in_summary_md:
         root = Path(".")
     text_content_path: Path = Path(root, text_content_filename)
@@ -212,10 +214,10 @@ def build_summary_readme_md(summarized_bookmarks: List[SummarizedBookmark]) -> s
 
 @log_execution_time
 def process_bookmark_file():
-    with open(f'README.md', 'r', encoding='utf-8') as f:
+    with open(f'{BOOKMARK_COLLECTION_REPO_NAME}/README.md', 'r', encoding='utf-8') as f:
         bookmark_lines: List[str] = f.readlines()
 
-    with open(f'data.json', 'r', encoding='utf-8') as f:
+    with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'r', encoding='utf-8') as f:
         summarized_bookmark_dicts = json.load(f)
         summarized_bookmarks = [SummarizedBookmark(**bookmark) for bookmark in summarized_bookmark_dicts]
 
@@ -235,7 +237,7 @@ def process_bookmark_file():
 
     if title and url:
         # Create folder for month if it doesn't exist
-        Path(f'{CURRENT_MONTH}').mkdir(parents=True, exist_ok=True)
+        Path(f'{BOOKMARK_SUMMARY_REPO_NAME}/{CURRENT_MONTH}').mkdir(parents=True, exist_ok=True)
 
         # process the bookmark
         submit_to_wayback_machine(url)
@@ -259,11 +261,11 @@ def process_bookmark_file():
             timestamp=timestamp
         ))
 
-        with open(f'README.md', 'w', encoding='utf-8') as f:
+        with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/summary.md', 'w', encoding='utf-8') as f:
             f.write(build_summary_readme_md(summarized_bookmarks))
 
         # Update data.json
-        with open(f'data.json', 'w', encoding='utf-8') as f:
+        with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'w', encoding='utf-8') as f:
             json.dump([asdict(bookmark) for bookmark in summarized_bookmarks], f, indent=2, ensure_ascii=False)
 
 def main():

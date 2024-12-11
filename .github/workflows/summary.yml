@@ -37,6 +37,8 @@ jobs:
           OPENAI_API_MODEL: ${{ secrets.OPENAI_API_MODEL }}
           OPENAI_API_ENDPOINT: ${{ secrets.OPENAI_API_ENDPOINT }}
         run: |
+          ls -al
+          ls -al bookmark
           python bookmark/scripts/process_changes.py
 
       - name: Commit changes to bookmark-summary
