@@ -1,5 +1,5 @@
 # Ory与Keycloak和Authelia等替代品相比如何？从经验…| Hacker News --- How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper... | Hacker News
-- URL: [Ory与Keycloak和Authelia等替代品相比如何？从经验…| Hacker News --- How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper... | Hacker News](https://news.ycombinator.com/item?id=25763320)
+- URL: [原文](https://news.ycombinator.com/item?id=25763320)
 - Added At: 2024-12-11 09:34:36
 - [Link To Text](_posts/2024-12-11-ory与keycloak和authelia等替代品相比如何？从经验…-hacker-news-----how-does-ory-compare-to-alternatives-like-e.g.-keycloak-and-authelia-from-exper...-hacker-news_raw.md)
 
