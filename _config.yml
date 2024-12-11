@@ -9,6 +9,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-assets
+  - jekyll-paginate
 
 # Exclude from processing
 exclude:
@@ -33,3 +36,9 @@ defaults:
 
 social:
   github: "yiGmMk"
+
+jekyll-archives:
+  enabled: [year, month, day, tag]
+
+paginate: 10
+paginate_path: "/page:num/"
