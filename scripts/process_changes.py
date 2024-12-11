@@ -181,7 +181,7 @@ def get_text_content_path(title: str, in_summary_md: bool = False) -> Path:
 
 def build_summary_file(title: str, url: str, summary: str, one_sentence: str) -> str:
     return f"""# {title}
-- URL: {url}
+- URL: [{title}]({url})
 - Added At: {CURRENT_DATE_AND_TIME}
 - [Link To Text]({get_text_content_path(title, in_summary_md=True)})
 
