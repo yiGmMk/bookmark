@@ -39,6 +39,3 @@ social:
 
 jekyll-archives:
   enabled: [year, month, day, tag]
-
-paginate: 10
-paginate_path: "/page:num/"
