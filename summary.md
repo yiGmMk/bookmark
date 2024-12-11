@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-11) [Genymobile/scrcpy](_posts/202412/2024-12-11-genymobile-scrcpy.md)
 - (2024-12-11) [Ory与Keycloak和Authelia等替代品相比如何？从经验…| Hacker News --- How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper... | Hacker News](_posts/202412/2024-12-11-ory%E4%B8%8Ekeycloak%E5%92%8Cauthelia%E7%AD%89%E6%9B%BF%E4%BB%A3%E5%93%81%E7%9B%B8%E6%AF%94%E5%A6%82%E4%BD%95%EF%BC%9F%E4%BB%8E%E7%BB%8F%E9%AA%8C%E2%80%A6-hacker-news-----how-does-ory-compare-to-alternatives-like-e.g.-keycloak-and-authelia-from-exper...-hacker-news.md)
 - (2024-12-11) [SAML: A technical primer — SSOReady Docs](_posts/202412/2024-12-11-saml-a-technical-primer-%E2%80%94-ssoready-docs.md)
 - (2024-12-11) [Nginx Logging: A Comprehensive Guide | Better Stack Community](_posts/202412/2024-12-11-nginx-logging-a-comprehensive-guide-better-stack-community.md)
