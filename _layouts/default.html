@@ -64,7 +64,10 @@
     <main>
         {{ content }}
     </main>
-
+    <aside>
+        <h2>友链</h2>
+        {% include friend_links.html %}
+    </aside>
     <footer style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee; color: #666;">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
     </footer>
