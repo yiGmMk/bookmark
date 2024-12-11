@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <nav>
+        <ul>
+            <li><a href="/">首页</a></li>
+            <li><a href="/friends/">友链</a></li>
+            <!-- 其他链接 -->
+        </ul>
+    </nav>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -64,10 +71,7 @@
     <main>
         {{ content }}
     </main>
-    <aside>
-        <h2>友链</h2>
-        {% include friend_links.html %}
-    </aside>
+
     <footer style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee; color: #666;">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
     </footer>
