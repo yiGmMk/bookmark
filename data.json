@@ -40,5 +40,11 @@
     "title": "系统设计面试：内幕指南",
     "url": "https://learning-guide.gitbook.io/system-design-interview/",
     "timestamp": 1733889542
+  },
+  {
+    "month": "202412",
+    "title": "使用 CoreDNS 搭建本地域名服务",
+    "url": "https://george.betterde.com/devops/20221120.html",
+    "timestamp": 1733900061
   }
 ]
