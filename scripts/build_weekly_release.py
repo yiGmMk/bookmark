@@ -10,9 +10,6 @@ from typing import Optional
 from urllib.parse import unquote
 from process_changes import slugify, get_summary_file_path
 
-# 常量定义
-BOOKMARK_SUMMARY_REPO_NAME = '.'  # 当前目录
-
 def extract_tldr(summary_file: Path) -> str:
     """
     从摘要文件中提取 TL;DR 部分。

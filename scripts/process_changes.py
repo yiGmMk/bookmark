@@ -162,18 +162,18 @@ def get_summary_file_path(title: str, timestamp: int, month: Optional[str] = Non
     if in_readme_md:
         if month is None:
             raise ValueError("Month must be provided when in_readme_md is True")
-        root: Path = Path(".", month)
+        root: Path = Path("_posts/", month)
         summary_filename = f"{date_str}-{quote(slugify(title))}.md"
     else:
         if month is None:
             month = CURRENT_MONTH
-        root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME, month)
+        root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME+"_posts/", month)
     summary_path: Path = Path(root, summary_filename)
     return summary_path
 
 def get_text_content_path(title: str, in_summary_md: bool = False) -> Path:
     text_content_filename: str = f"{CURRENT_DATE}-{slugify(title)}_raw.md"
-    root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME, CURRENT_MONTH)
+    root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME+"_posts/", CURRENT_MONTH)
     if in_summary_md:
         root = Path(".")
     text_content_path: Path = Path(root, text_content_filename)
@@ -237,7 +237,7 @@ def process_bookmark_file():
 
     if title and url:
         # Create folder for month if it doesn't exist
-        Path(f'{BOOKMARK_SUMMARY_REPO_NAME}/{CURRENT_MONTH}').mkdir(parents=True, exist_ok=True)
+        Path(f'_posts/{BOOKMARK_SUMMARY_REPO_NAME}/{CURRENT_MONTH}').mkdir(parents=True, exist_ok=True)
 
         # process the bookmark
         submit_to_wayback_machine(url)
