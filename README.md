@@ -1,3 +1,4 @@
+- [SAML: A technical primer — SSOReady Docs](https://ssoready.com/docs/saml/saml-technical-primer) 单点登陆,SAML #tool#sso
 - [DevToolset: 开源、无数据库架构的开发者工具资源导航平台](https://DevToolset.net/) 导航站 #tool#nosummary
 - [cline/cline](https://github.com/cline/cline) 强大的vscode 插件,可以各种任务,使用浏览器,执行命令,创建文件等 #ai#tool#nosummary
 - [这样设置Prompt，让ChatGPT输出更好的效果！为ChatGPT提供更合适的Prompt输入，我们就能得到更优质的 - 掘金](https://juejin.cn/post/7232480698879623223) 和吴恩达学写Prompt #ai#2024-12
