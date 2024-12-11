@@ -162,7 +162,7 @@ def get_summary_file_path(title: str, timestamp: int, month: Optional[str] = Non
     if in_readme_md:
         if month is None:
             raise ValueError("Month must be provided when in_readme_md is True")
-        root: Path = Path("_posts/", month)
+        root: Path = Path("_posts", month)
         summary_filename = f"{date_str}-{quote(slugify(title))}.md"
     else:
         if month is None:
@@ -175,7 +175,7 @@ def get_text_content_path(title: str, in_summary_md: bool = False) -> Path:
     text_content_filename: str = f"{CURRENT_DATE}-{slugify(title)}_raw.md"
     root: Path = Path(BOOKMARK_SUMMARY_REPO_NAME+"/_posts/", CURRENT_MONTH)
     if in_summary_md:
-        root = Path(".")
+        root = Path("_posts")
     text_content_path: Path = Path(root, text_content_filename)
     return text_content_path
 
