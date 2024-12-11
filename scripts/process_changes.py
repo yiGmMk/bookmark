@@ -179,8 +179,8 @@ def get_text_content_path(title: str, in_summary_md: bool = False) -> Path:
     text_content_path: Path = Path(root, text_content_filename)
     return text_content_path
 
-def build_summary_file(title: str, url: str, summary: str, one_sentence: str) -> str:
-    return f"""# {title}
+def build_summary_file(title: str, url: str, summary: str, one_sentence: str,jina_title: str) -> str:
+    return f"""# {jina_title}
 - URL: [原文]({url})
 - Added At: {CURRENT_DATE_AND_TIME}
 - [Link To Text]({get_text_content_path(title, in_summary_md=True)})
@@ -242,9 +242,12 @@ def process_bookmark_file():
         # process the bookmark
         submit_to_wayback_machine(url)
         text_content: str = get_text_content(url)
+        title_from_content: str = get_title_from_content(text_content)
+        if title_from_content=="":
+            title_from_content = title
         summary: str = summarize_text(text_content)
         one_sentence: str = one_sentence_summary(summary)
-        summary_file_content: str = build_summary_file(title, url, summary, one_sentence)
+        summary_file_content: str = build_summary_file(title, url, summary, one_sentence,title_from_content)
         timestamp = int(datetime.now().timestamp())
         
         with open(get_text_content_path(title), 'w', encoding='utf-8') as f:
@@ -267,7 +270,17 @@ def process_bookmark_file():
         # Update data.json
         with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'w', encoding='utf-8') as f:
             json.dump([asdict(bookmark) for bookmark in summarized_bookmarks], f, indent=2, ensure_ascii=False)
+def get_title_from_content(content: str):
+    # 使用正则表达式提取 title 和 URL Source
+    title_pattern = r'Title:\s*(.*)'
 
+    title_match = re.search(title_pattern, content)
+    if title_match:
+        title = title_match.group(1)
+    else:
+        title = ""
+    return title
+    
 def main():
     process_bookmark_file()
 
