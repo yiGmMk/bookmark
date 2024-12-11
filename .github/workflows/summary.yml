@@ -42,10 +42,14 @@ jobs:
           python bookmark/scripts/process_changes.py
 
       - name: Commit changes to bookmark
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           cd bookmark
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Add new summaries" || echo "No changes to commit"
+          git diff
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git pull
+          git add -A
+          git commit -m "Add new summaries" || exit 0
           git push
