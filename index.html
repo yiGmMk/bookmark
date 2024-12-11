@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <h2>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
