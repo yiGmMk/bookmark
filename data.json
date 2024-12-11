@@ -52,5 +52,11 @@
     "title": "Debugging Till Dawn: How Git Bisect Saved My Demo",
     "url": "https://www.mikebuss.com/posts/debugging-till-dawn",
     "timestamp": 1733903853
+  },
+  {
+    "month": "202412",
+    "title": "Nginx Logging: A Comprehensive Guide | Better Stack Community",
+    "url": "https://betterstack.com/community/guides/logging/how-to-view-and-configure-nginx-access-and-error-logs/",
+    "timestamp": 1733907545
   }
 ]
