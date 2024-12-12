@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-12) [Misuse of ServerConfig.PublicKeyCallback may cause authorization bypass in golang.org/x/crypto · Dependabot alert #11 · yiGmMk/coding-practicing](_posts/202412/2024-12-12-misuse-of-serverconfig.publickeycallback-may-cause-authorization-bypass-in-golang.org-x-crypto-%C2%B7-dependabot-alert-%2311-%C2%B7-yigmmk-coding-practicing.md)
 - (2024-12-11) [美团技术团队-美团大规模KV存储挑战与架构实践](_posts/202412/2024-12-11-%E7%BE%8E%E5%9B%A2%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F-%E7%BE%8E%E5%9B%A2%E5%A4%A7%E8%A7%84%E6%A8%A1kv%E5%AD%98%E5%82%A8%E6%8C%91%E6%88%98%E4%B8%8E%E6%9E%B6%E6%9E%84%E5%AE%9E%E8%B7%B5.md)
 - (2024-12-11) [Genymobile/scrcpy](_posts/202412/2024-12-11-genymobile-scrcpy.md)
 - (2024-12-11) [Ory与Keycloak和Authelia等替代品相比如何？从经验…| Hacker News --- How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper... | Hacker News](_posts/202412/2024-12-11-ory%E4%B8%8Ekeycloak%E5%92%8Cauthelia%E7%AD%89%E6%9B%BF%E4%BB%A3%E5%93%81%E7%9B%B8%E6%AF%94%E5%A6%82%E4%BD%95%EF%BC%9F%E4%BB%8E%E7%BB%8F%E9%AA%8C%E2%80%A6-hacker-news-----how-does-ory-compare-to-alternatives-like-e.g.-keycloak-and-authelia-from-exper...-hacker-news.md)
