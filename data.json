@@ -82,11 +82,5 @@
     "title": "美团技术团队-美团大规模KV存储挑战与架构实践",
     "url": "https://tech.meituan.com/2024/03/15/kv-squirrel-cellar.html",
     "timestamp": 1733912608
-  },
-  {
-    "month": "202412",
-    "title": "Misuse of ServerConfig.PublicKeyCallback may cause authorization bypass in golang.org/x/crypto · Dependabot alert #11 · yiGmMk/coding-practicing",
-    "url": "https://github.com/yiGmMk/coding-practicing/security/dependabot/11",
-    "timestamp": 1733967951
   }
 ]
