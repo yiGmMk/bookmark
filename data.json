@@ -82,5 +82,11 @@
     "title": "美团技术团队-美团大规模KV存储挑战与架构实践",
     "url": "https://tech.meituan.com/2024/03/15/kv-squirrel-cellar.html",
     "timestamp": 1733912608
+  },
+  {
+    "month": "202412",
+    "title": "Why is single threaded Redis so fast",
+    "url": "https://www.pixelstech.net/article/1677580861-Why-is-single-threaded-Redis-so-fast",
+    "timestamp": 1733968287
   }
 ]
