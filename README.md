@@ -1,3 +1,4 @@
+- [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request) 使用github actions提交pr #nosummary#tool
 - [直接链接网页的某段文本](https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html) 直接链接网页的某段文本 #blog
 - [美团技术团队-美团大规模KV存储挑战与架构实践](https://tech.meituan.com/2024/03/15/kv-squirrel-cellar.html) 一致性哈希,KV存储 #blog
 - [SAML: A technical primer — SSOReady Docs](https://ssoready.com/docs/saml/saml-technical-primer) 单点登陆,SAML #tool#sso
