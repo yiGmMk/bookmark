@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-13) [Zeli - 用中文阅读Hacker News和AI论文](_posts/202412/2024-12-13-zeli---%E7%94%A8%E4%B8%AD%E6%96%87%E9%98%85%E8%AF%BBhacker-news%E5%92%8Cai%E8%AE%BA%E6%96%87.md)
 - (2024-12-13) [直接链接网页的某段文本](_posts/202412/2024-12-13-%E7%9B%B4%E6%8E%A5%E9%93%BE%E6%8E%A5%E7%BD%91%E9%A1%B5%E7%9A%84%E6%9F%90%E6%AE%B5%E6%96%87%E6%9C%AC.md)
 - (2024-12-12) [Why is single threaded Redis so fast](_posts/202412/2024-12-12-why-is-single-threaded-redis-so-fast.md)
 - (2024-12-11) [美团技术团队-美团大规模KV存储挑战与架构实践](_posts/202412/2024-12-11-%E7%BE%8E%E5%9B%A2%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F-%E7%BE%8E%E5%9B%A2%E5%A4%A7%E8%A7%84%E6%A8%A1kv%E5%AD%98%E5%82%A8%E6%8C%91%E6%88%98%E4%B8%8E%E6%9E%B6%E6%9E%84%E5%AE%9E%E8%B7%B5.md)
