@@ -1,3 +1,4 @@
+- [直接链接网页的某段文本](https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html) 直接链接网页的某段文本 #blog
 - [美团技术团队-美团大规模KV存储挑战与架构实践](https://tech.meituan.com/2024/03/15/kv-squirrel-cellar.html) 一致性哈希,KV存储 #blog
 - [SAML: A technical primer — SSOReady Docs](https://ssoready.com/docs/saml/saml-technical-primer) 单点登陆,SAML #tool#sso
 - [DevToolset: 开源、无数据库架构的开发者工具资源导航平台](https://DevToolset.net/) 导航站 #tool#nosummary
