@@ -11,12 +11,13 @@ import time
 from functools import wraps
 from urllib.parse import quote
 from waybackpy import WaybackMachineSaveAPI
+from process_changes import Bookmark,get_title_from_content
 
 # -- configurations begin --
 BOOKMARK_COLLECTION_REPO_NAME: str = "bookmark"
 BOOKMARK_SUMMARY_REPO_NAME: str = "bookmark"
 MAX_CONTENT_LENGTH: int = 32 * 1024  # 32KB
-NO_SUMMARY_TAG: str = "#nosummary"
+TRANSLATE_TAG: str = "#translate"
 # -- configurations end --
 
 logging.basicConfig(
@@ -36,13 +37,6 @@ def log_execution_time(func):
         logging.info(f'Exiting {func.__name__} - Elapsed time: {elapsed_time:.4f} seconds')
         return result
     return wrapper
-
-@dataclass
-class Bookmark:
-    month: str  # yyyyMM
-    title: str
-    url: str
-    timestamp: int  # unix timestamp
 
 CURRENT_MONTH: str = datetime.now().strftime('%Y%m')
 CURRENT_DATE: str = datetime.now().strftime('%Y-%m-%d')
@@ -217,20 +211,20 @@ def process_bookmark_file():
     with open(f'{BOOKMARK_COLLECTION_REPO_NAME}/README.md', 'r', encoding='utf-8') as f:
         bookmark_lines: List[str] = f.readlines()
 
-    with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'r', encoding='utf-8') as f:
-        summarized_bookmark_dicts = json.load(f)
-        summarized_bookmarks = [Bookmark(**bookmark) for bookmark in summarized_bookmark_dicts]
+    with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/translate.json', 'r', encoding='utf-8') as f:
+        translate_bookmark_dicts = json.load(f)
+        translate_bookmarks = [Bookmark(**bookmark) for bookmark in translate_bookmark_dicts]
 
-    summarized_urls = set([bookmark.url for bookmark in summarized_bookmarks])
+    translate_urls = set([bookmark.url for bookmark in translate_bookmarks])
 
     # find the first unprocessed && summary-not-present bookmark
     title: Optional[str] = None
     url: Optional[str] = None
     for line in bookmark_lines:
         match: re.Match = re.search(r'- \[(.*?)\]\((.*?)\)', line)
-        if match and match.group(2) not in summarized_urls:
-            if NO_SUMMARY_TAG in line:
-                logging.debug(f"Skipping bookmark with {NO_SUMMARY_TAG} tag: {match.group(1)}")
+        if match and match.group(2) not in translate_urls:
+            if TRANSLATE_TAG not in line:
+                logging.debug(f"Skipping bookmark with {TRANSLATE_TAG} tag: {match.group(1)}")
                 continue
             title, url = match.groups()
             break
@@ -257,7 +251,7 @@ def process_bookmark_file():
             f.write(summary_file_content)
         
         # Update bookmark-summary/README.md
-        summarized_bookmarks.append(Bookmark(
+        translate_bookmarks.append(Bookmark(
             month=CURRENT_MONTH,
             title=title,
             url=url,
@@ -265,21 +259,11 @@ def process_bookmark_file():
         ))
 
         with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/summary.md', 'w', encoding='utf-8') as f:
-            f.write(build_summary_readme_md(summarized_bookmarks))
+            f.write(build_summary_readme_md(translate_bookmarks))
 
         # Update data.json
         with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'w', encoding='utf-8') as f:
-            json.dump([asdict(bookmark) for bookmark in summarized_bookmarks], f, indent=2, ensure_ascii=False)
-def get_title_from_content(content: str):
-    # 使用正则表达式提取 title 和 URL Source
-    title_pattern = r'Title:\s*(.*)'
-
-    title_match = re.search(title_pattern, content)
-    if title_match:
-        title = title_match.group(1)
-    else:
-        title = ""
-    return title
+            json.dump([asdict(bookmark) for bookmark in translate_bookmarks], f, indent=2, ensure_ascii=False)
     
 def main():
     process_bookmark_file()
