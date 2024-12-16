@@ -54,7 +54,8 @@ jobs:
         run: |
           ls -al
           ls -al data
-          mv data/* blog/source/_posts/
+          ls -al blog
+          mv data/* blog/source/_posts
 
       # 创建pr
       - name: pr blog
