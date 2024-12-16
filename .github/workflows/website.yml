@@ -81,7 +81,7 @@ jobs:
           labels: |
             automated pr : translate
           assignees: yiGmMk
-          reviewers: yiGmMk
+          # reviewers: yiGmMk
           # team-reviewers: |
           #   yiGmMk
           draft: false
