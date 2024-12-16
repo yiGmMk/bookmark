@@ -24,6 +24,15 @@ jobs:
         with:
           path: bookmark
 
+      # 需要再blog repo打开配置 Access-> Accessible from repositories owned by the user 'yiGmMk'
+      - name: Checkout blog
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          path: blog
+          repository: yiGmMk/blog
+          ref: master
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -44,13 +53,6 @@ jobs:
           ls -al
           ls -al bookmark
           python bookmark/scripts/translate.py
-
-      - name: Checkout blog
-        uses: actions/checkout@v4
-        with:
-          path: blog
-          repository: yiGmMk/blog
-          ref: master
 
       - name: copy data to blog
         run: |
