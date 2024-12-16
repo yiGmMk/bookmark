@@ -50,6 +50,7 @@ jobs:
         with:
           path: blog
           repository: yiGmMk/blog
+          ref: master
 
       - name: copy data to blog
         run: |
