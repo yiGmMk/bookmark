@@ -38,7 +38,7 @@ def log_execution_time(func):
     return wrapper
 
 @dataclass
-class SummarizedBookmark:
+class Bookmark:
     month: str  # yyyyMM
     title: str
     url: str
@@ -192,7 +192,7 @@ def build_summary_file(title: str, url: str, summary: str, one_sentence: str,jin
 {summary}
 """
 
-def build_summary_readme_md(summarized_bookmarks: List[SummarizedBookmark]) -> str:
+def build_summary_readme_md(summarized_bookmarks: List[Bookmark]) -> str:
     initial_prefix: str = """# Bookmark Summary 
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
@@ -219,7 +219,7 @@ def process_bookmark_file():
 
     with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'r', encoding='utf-8') as f:
         summarized_bookmark_dicts = json.load(f)
-        summarized_bookmarks = [SummarizedBookmark(**bookmark) for bookmark in summarized_bookmark_dicts]
+        summarized_bookmarks = [Bookmark(**bookmark) for bookmark in summarized_bookmark_dicts]
 
     summarized_urls = set([bookmark.url for bookmark in summarized_bookmarks])
 
@@ -257,7 +257,7 @@ def process_bookmark_file():
             f.write(summary_file_content)
         
         # Update bookmark-summary/README.md
-        summarized_bookmarks.append(SummarizedBookmark(
+        summarized_bookmarks.append(Bookmark(
             month=CURRENT_MONTH,
             title=title,
             url=url,
