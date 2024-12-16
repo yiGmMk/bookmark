@@ -52,6 +52,7 @@ jobs:
 
       - name: copy data to blog
         run: |
+          ls -al
           ls -al data
           mv data/* blog/source/_posts/
 
