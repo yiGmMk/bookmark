@@ -16,7 +16,7 @@ permissions:
   contents: write # 允许写入内容（包括标签和发布）
 
 jobs:
-  summarize:
+  translate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout bookmark
@@ -43,6 +43,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_API_MODEL: ${{ secrets.OPENAI_API_MODEL }}
           OPENAI_API_ENDPOINT: ${{ secrets.OPENAI_API_ENDPOINT }}
+          DIFY_API_TRANSLATE: ${{ secrets.DIFY_API_TRANSLATE }}
         run: |
           ls -al
           ls -al bookmark
