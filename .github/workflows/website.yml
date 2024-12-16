@@ -48,11 +48,26 @@ jobs:
           ls -al bookmark
           python bookmark/scripts/translate.py
 
+      - name: Commit changes to bookmark
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          cd bookmark
+          git diff
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git pull
+          git add -A
+          git commit -m "Add new summaries" || exit 0
+          git push
+
       - name: Commit changes to blog
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cd blog
+          cd ../blog
+          ls -al
+          ls -al ../
       # 创建pr
       - name: Commit changes to blog
         uses: peter-evans/create-pull-request@v7
@@ -79,16 +94,3 @@ jobs:
             yiGmMk
           milestone: 1
           draft: false
-
-      - name: Commit changes to bookmark
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          cd ../bookmark
-          git diff
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git pull
-          git add -A
-          git commit -m "Add new summaries" || exit 0
-          git push
