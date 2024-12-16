@@ -9,7 +9,7 @@ import logging
 from process_changes import Bookmark,get_title_from_content,log_execution_time,BOOKMARK_COLLECTION_REPO_NAME,get_text_content,CURRENT_MONTH,slugify
 
 TRANSLATE_TAG: str="#translate"
-BLOG_REPO_NAME: str="blog"
+DATA_PATH_NAME: str="data"
 
 @log_execution_time
 def translate_text(website_url: str,task_type="翻译") -> str:
@@ -57,7 +57,7 @@ def process_bookmark_file():
 
     if title and url:
         # Create folder for month if it doesn't exist
-        Path(f'{BLOG_REPO_NAME}/source/_posts').mkdir(parents=True, exist_ok=True)
+        Path(f'{DATA_PATH_NAME}').mkdir(parents=True, exist_ok=True)
 
         # process the bookmark
         text_content: str = get_text_content(url)
@@ -80,7 +80,7 @@ def process_bookmark_file():
         with open(f'{BOOKMARK_COLLECTION_REPO_NAME}/translate.json', 'w', encoding='utf-8') as f:
             json.dump([asdict(bookmark) for bookmark in translate_bookmarks], f, indent=2, ensure_ascii=False)
 def get_file_path(title:str)->str:
-    return f'{BLOG_REPO_NAME}/source/_posts/{slugify(title)}.md'
+    return f'{DATA_PATH_NAME}/{slugify(title)}.md'
     
 def main():
     process_bookmark_file()
