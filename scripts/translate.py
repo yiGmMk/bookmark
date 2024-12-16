@@ -65,6 +65,11 @@ def process_bookmark_file():
         if title_from_content=="":
             title_from_content = title
         translate_text_content: str = translate_text(url)
+        translate_text_content+="""
+        
+        ## 原文
+        - f'[{title_from_content}]({url})'
+        """
         timestamp = int(datetime.now().timestamp())
 
         translate_bookmarks.append(Bookmark(
