@@ -85,7 +85,6 @@ jobs:
           reviewers: yiGmMk
           team-reviewers: |
             yiGmMk
-          milestone: 1
           draft: false
 
       - name: Commit changes to bookmark
