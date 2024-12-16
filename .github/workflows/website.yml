@@ -49,6 +49,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: blog
+          repository: yiGmMk/blog
 
       - name: copy data to blog
         run: |
