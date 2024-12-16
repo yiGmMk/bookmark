@@ -4,5 +4,11 @@
     "title": "The history of Monokai",
     "url": "https://monokai.pro/history",
     "timestamp": 1734342270
+  },
+  {
+    "month": "202412",
+    "title": "Understanding Concurrency, Parallelism and JS",
+    "url": "https://www.rugu.dev/en/blog/concurrency-and-parallelism/",
+    "timestamp": 1734343914
   }
 ]
