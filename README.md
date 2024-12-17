@@ -1,3 +1,4 @@
+- [Google NotebookLM | Note Taking & Research Assistant Powered by AI](https://notebooklm.google.com/notebook/) google NotebookLM ,知识库,工具 #nosummary#tool
 - [Understanding Concurrency, Parallelism and JS](https://www.rugu.dev/en/blog/concurrency-and-parallelism/) 以js为例介绍并发和并行 #translate#nosummary#blog
 - [The history of Monokai](https://monokai.pro/history) 编辑器主题Monokai的历史 #translate
 - [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request) 使用github actions提交pr #nosummary#tool
