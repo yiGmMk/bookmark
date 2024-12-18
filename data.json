@@ -124,5 +124,11 @@
     "title": "开源工具,bookmark-summary,使用ai自动总结收藏内容",
     "url": "https://github.com/jerrylususu/bookmark-summary",
     "timestamp": 1734409292
+  },
+  {
+    "month": "202412",
+    "title": "OpenAI官方教程,如何用gpt生成Prompt",
+    "url": "https://platform.openai.com/docs/guides/prompt-generation?context=text-out#output-cleaning",
+    "timestamp": 1734516352
   }
 ]

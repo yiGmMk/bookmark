@@ -1,0 +1,9 @@
+Title: Just a moment...
+
+URL Source: https://platform.openai.com/docs/guides/prompt-generation?context=text-out
+
+Markdown Content:
+Just a moment...
+===============
+
+Waiting for platform.openai.com to respond...
