@@ -1,3 +1,4 @@
+- [OpenAI官方教程,如何用gpt生成Prompt](https://platform.openai.com/docs/guides/prompt-generation?context=text-out#output-cleaning) #translate#tool#blog
 - [D2 Playground](https://play.d2lang.com) 在线制作示意图 #tool#nosummary
 - [Google NotebookLM | Note Taking & Research Assistant Powered by AI](https://notebooklm.google.com/notebook/) google NotebookLM ,知识库,工具 #nosummary#tool
 - [Understanding Concurrency, Parallelism and JS](https://www.rugu.dev/en/blog/concurrency-and-parallelism/) 以js为例介绍并发和并行 #translate#nosummary#blog
