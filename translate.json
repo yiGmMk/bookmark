@@ -16,5 +16,11 @@
     "title": "OpenAI官方教程,如何用gpt生成Prompt",
     "url": "https://platform.openai.com/docs/guides/prompt-generation?context=text-out#output-cleaning",
     "timestamp": 1734516298
+  },
+  {
+    "month": "202412",
+    "title": "Alignment faking in large language models",
+    "url": "https://www.anthropic.com/research/alignment-faking",
+    "timestamp": 1734690536
   }
 ]
