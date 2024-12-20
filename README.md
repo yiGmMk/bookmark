@@ -1,3 +1,4 @@
+- [Alignment faking in large language models](https://www.anthropic.com/research/alignment-faking) #translate#nosummary
 - [OpenAI官方教程,如何用gpt生成Prompt](https://platform.openai.com/docs/guides/prompt-generation?context=text-out#output-cleaning) #translate#tool#blog
 - [D2 Playground](https://play.d2lang.com) 在线制作示意图 #tool#nosummary
 - [Google NotebookLM | Note Taking & Research Assistant Powered by AI](https://notebooklm.google.com/notebook/) google NotebookLM ,知识库,工具 #nosummary#tool
