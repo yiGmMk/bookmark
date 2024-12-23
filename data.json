@@ -130,5 +130,11 @@
     "title": "OpenAI官方教程,如何用gpt生成Prompt",
     "url": "https://platform.openai.com/docs/guides/prompt-generation?context=text-out#output-cleaning",
     "timestamp": 1734516352
+  },
+  {
+    "month": "202412",
+    "title": "Understanding Google’s Quantum Error Correction Breakthrough",
+    "url": "https://www.quantum-machines.co/blog/understanding-googles-quantum-error-correction-breakthrough/",
+    "timestamp": 1734926824
   }
 ]
