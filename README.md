@@ -1,3 +1,4 @@
+- [Understanding Google’s Quantum Error Correction Breakthrough](https://www.quantum-machines.co/blog/understanding-googles-quantum-error-correction-breakthrough/) Google量子纠错 #translate
 - [Alignment faking in large language models](https://www.anthropic.com/research/alignment-faking) #translate#nosummary
 - [OpenAI官方教程,如何用gpt生成Prompt](https://platform.openai.com/docs/guides/prompt-generation?context=text-out#output-cleaning) #translate#tool#blog
 - [D2 Playground](https://play.d2lang.com) 在线制作示意图 #tool#nosummary
