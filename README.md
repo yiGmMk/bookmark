@@ -1,3 +1,4 @@
+- [OpenAI's o3 suggests AI models are scaling in new ways — but so are the costs | TechCrunch](https://techcrunch.com/2024/12/23/openais-o3-suggests-ai-models-are-scaling-in-new-ways-but-so-are-the-costs/) #translate
 - [About Steve,一个好老板](https://www.douban.com/note/868882841/?_i=4943175oHrcGsd,4944076oHrcGsd) 一个好老板,Steve 是我上一份工作的直属上司，我们在同一个组工作了六年。 虽然前司臭名昭著，但这六年却是我职场体验最好的六年。这期间，我不断和朋友们提起 Steve 作为老板有多么优秀。经朋友提醒，我才想到可以把之前关于 Steve 的零碎广播汇总起来 #nosummary
 - [Understanding Google’s Quantum Error Correction Breakthrough](https://www.quantum-machines.co/blog/understanding-googles-quantum-error-correction-breakthrough/) Google量子纠错 #translate
 - [Alignment faking in large language models](https://www.anthropic.com/research/alignment-faking) #translate#nosummary
