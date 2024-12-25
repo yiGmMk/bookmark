@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-25) [OpenAI's o3 suggests AI models are scaling in new ways — but so are the costs | TechCrunch](_posts/202412/2024-12-25-openai%27s-o3-suggests-ai-models-are-scaling-in-new-ways-%E2%80%94-but-so-are-the-costs-techcrunch.md)
 - (2024-12-23) [Understanding Google’s Quantum Error Correction Breakthrough](_posts/202412/2024-12-23-understanding-google%E2%80%99s-quantum-error-correction-breakthrough.md)
 - (2024-12-18) [OpenAI官方教程,如何用gpt生成Prompt](_posts/202412/2024-12-18-openai%E5%AE%98%E6%96%B9%E6%95%99%E7%A8%8B%2C%E5%A6%82%E4%BD%95%E7%94%A8gpt%E7%94%9F%E6%88%90prompt.md)
 - (2024-12-17) [开源工具,bookmark-summary,使用ai自动总结收藏内容](_posts/202412/2024-12-17-%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7%2Cbookmark-summary%2C%E4%BD%BF%E7%94%A8ai%E8%87%AA%E5%8A%A8%E6%80%BB%E7%BB%93%E6%94%B6%E8%97%8F%E5%86%85%E5%AE%B9.md)
