@@ -5,7 +5,7 @@ url: "" # 这里会根据GitHub Pages自动设置
 google_analytics: G-4ZMS4MK5S7
 # Build settings
 markdown: kramdown
-theme: architect
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
