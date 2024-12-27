@@ -2,10 +2,10 @@ title: Bookmark Collection
 description: A collection of interesting bookmarks and articles
 baseurl: "/" # 仓库名称作为baseurl
 url: "" # 这里会根据GitHub Pages自动设置
-
+google_analytics: G-4ZMS4MK5S7
 # Build settings
 markdown: kramdown
-theme: minima
+theme: architect
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -21,21 +21,3 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
-
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title/
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-social:
-  github: "yiGmMk"
-
-jekyll-archives:
-  enabled: [year, month, day, tag]
