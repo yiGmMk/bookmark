@@ -3,17 +3,8 @@ description: A collection of interesting bookmarks and articles
 baseurl: "/" # 仓库名称作为baseurl
 url: "" # 这里会根据GitHub Pages自动设置
 google_analytics: G-4ZMS4MK5S7
-# Build settings
-markdown: kramdown
 theme: jekyll-theme-architect
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-assets
-  - jekyll-paginate
-
-# Exclude from processing
+remote_theme: jekyll-theme-architect
 exclude:
   - scripts/
   - requirements.txt
