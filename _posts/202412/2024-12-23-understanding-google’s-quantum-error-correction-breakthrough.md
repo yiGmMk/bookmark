@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Understanding Google’s Quantum Error Correction Breakthrough
 - URL: [原文](https://www.quantum-machines.co/blog/understanding-googles-quantum-error-correction-breakthrough/)
 - Added At: 2024-12-23 04:06:37

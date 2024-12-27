@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # What is AppData, and what are Local, LocalLow, and Roaming?
 - URL: https://www.xda-developers.com/appdata/
 - Added At: 2024-12-11 03:34:50

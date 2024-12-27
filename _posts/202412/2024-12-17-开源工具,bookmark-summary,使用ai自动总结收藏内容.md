@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # GitHub - jerrylususu/bookmark-summary: 用 LLM 和 jina reader 生成的总结
 - URL: [原文](https://github.com/jerrylususu/bookmark-summary)
 - Added At: 2024-12-17 04:20:49

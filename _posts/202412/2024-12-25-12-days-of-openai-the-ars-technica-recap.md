@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # 12 days of OpenAI: The Ars Technica recap
 - URL: [原文](https://arstechnica.com/information-technology/2024/12/12-days-of-openai-the-ars-technica-recap/)
 - Added At: 2024-12-25 10:08:51

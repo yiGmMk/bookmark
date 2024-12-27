@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: Understanding Google’s Quantum Error Correction Breakthrough
 
 URL Source: https://www.quantum-machines.co/blog/understanding-googles-quantum-error-correction-breakthrough/

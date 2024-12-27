@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: 12 days of OpenAI: The Ars Technica recap
 
 URL Source: https://arstechnica.com/information-technology/2024/12/12-days-of-openai-the-ars-technica-recap/

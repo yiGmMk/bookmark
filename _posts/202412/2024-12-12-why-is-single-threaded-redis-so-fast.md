@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Why is single threaded Redis so fast
 - URL: [原文](https://www.pixelstech.net/article/1677580861-Why-is-single-threaded-Redis-so-fast)
 - Added At: 2024-12-12 01:50:29

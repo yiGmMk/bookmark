@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Server-Side Rendering for Better Web Apps - Builder.io
 - URL: https://www.builder.io/m/explainers/server-side-rendering
 - Added At: 2024-12-11 03:33:20

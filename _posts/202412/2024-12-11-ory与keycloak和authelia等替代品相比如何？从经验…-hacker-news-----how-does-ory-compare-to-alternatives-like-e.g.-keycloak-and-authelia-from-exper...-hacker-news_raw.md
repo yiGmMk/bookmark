@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: How does Ory compare to alternatives like e.g. Keycloak and Authelia? From exper...
 
 URL Source: https://news.ycombinator.com/item?id=25763320

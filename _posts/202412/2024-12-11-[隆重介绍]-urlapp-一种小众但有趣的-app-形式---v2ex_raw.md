@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: [隆重介绍] urlapp-一种小众但有趣的 app 形式 - V2EX
 
 URL Source: https://www.v2ex.com/t/1059349

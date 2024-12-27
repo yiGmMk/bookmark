@@ -180,7 +180,10 @@ def get_text_content_path(title: str, in_summary_md: bool = False) -> Path:
     return text_content_path
 
 def build_summary_file(title: str, url: str, summary: str, one_sentence: str,jina_title: str) -> str:
-    return f"""# {jina_title}
+    return f"""---
+layout: post
+---
+# {jina_title}
 - URL: [原文]({url})
 - Added At: {CURRENT_DATE_AND_TIME}
 - [Link To Text]({get_text_content_path(title, in_summary_md=True)})
@@ -251,7 +254,11 @@ def process_bookmark_file():
         timestamp = int(datetime.now().timestamp())
         
         with open(get_text_content_path(title), 'w', encoding='utf-8') as f:
-            f.write(text_content)
+            f.write(f"""---
+layout: post
+---
+{text_content}
+""")
 
         with open(get_summary_file_path(title, timestamp=timestamp), 'w', encoding='utf-8') as f:
             f.write(summary_file_content)

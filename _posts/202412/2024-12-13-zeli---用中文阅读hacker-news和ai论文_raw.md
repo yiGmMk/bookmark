@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: Zeli - 用中文阅读Hacker News和AI论文
 
 URL Source: https://zeli.app/zh

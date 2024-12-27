@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # LLM x 书签收藏：摘要 & 全文索引
 - URL: [原文](https://nekonull.me/posts/llm_x_bookmark/)
 - Added At: 2024-12-16 08:02:19

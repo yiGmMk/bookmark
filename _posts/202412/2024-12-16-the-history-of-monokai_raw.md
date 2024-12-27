@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: The history of Monokai
 
 URL Source: https://monokai.pro/history

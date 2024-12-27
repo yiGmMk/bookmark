@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: Nginx Logging: A Comprehensive Guide | Better Stack Community
 
 URL Source: https://betterstack.com/community/guides/logging/how-to-view-and-configure-nginx-access-and-error-logs/

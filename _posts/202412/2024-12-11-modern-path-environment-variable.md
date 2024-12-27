@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Modern PATH environment variable
 - URL: https://blog.izissise.net/posts/env-path/
 - Added At: 2024-12-11 03:38:06

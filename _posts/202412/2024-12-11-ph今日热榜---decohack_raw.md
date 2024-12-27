@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: PH今日热榜 - Decohack
 
 URL Source: https://decohack.com/category/producthunt/

@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: SAML: A technical primer — SSOReady Docs
 
 URL Source: https://ssoready.com/docs/saml/saml-technical-primer

@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: GitHub - jerrylususu/bookmark-summary: 用 LLM 和 jina reader 生成的总结
 
 URL Source: https://github.com/jerrylususu/bookmark-summary
@@ -202,9 +205,9 @@ Last commit message
 
 Last commit date
 
- |
-| --- | --- | --- | --- |
-| 
+ |     |
+ | --- |  |  |  |
+ |     |
 
 Latest commit
 -------------

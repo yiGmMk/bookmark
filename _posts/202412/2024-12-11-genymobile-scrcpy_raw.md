@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: GitHub - Genymobile/scrcpy: Display and control your Android device
 
 URL Source: https://github.com/Genymobile/scrcpy

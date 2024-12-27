@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # [隆重介绍] urlapp-一种小众但有趣的 app 形式 - V2EX
 - URL: https://www.v2ex.com/t/1059349
 - Added At: 2024-12-11 03:31:47

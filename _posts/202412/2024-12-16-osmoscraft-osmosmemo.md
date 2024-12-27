@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # GitHub - osmoscraft/osmosmemo: Turn GitHub into a bookmark manager
 - URL: [原文](https://github.com/osmoscraft/osmosmemo)
 - Added At: 2024-12-16 10:11:41

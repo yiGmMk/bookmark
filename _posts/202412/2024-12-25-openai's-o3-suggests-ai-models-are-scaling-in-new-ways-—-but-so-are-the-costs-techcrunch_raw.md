@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: OpenAI's o3 suggests AI models are scaling in new ways — but so are the costs | TechCrunch
 
 URL Source: https://techcrunch.com/2024/12/23/openais-o3-suggests-ai-models-are-scaling-in-new-ways-but-so-are-the-costs/

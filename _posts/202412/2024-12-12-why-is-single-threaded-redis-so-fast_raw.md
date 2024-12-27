@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: Why is single threaded Redis so fast
 
 URL Source: https://www.pixelstech.net/article/1677580861-Why-is-single-threaded-Redis-so-fast

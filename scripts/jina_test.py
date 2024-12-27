@@ -37,3 +37,11 @@ else:
 
 # 输出结果
 print(f"Title: {title}")
+
+
+with open("a.md", 'w', encoding='utf-8') as f:
+            f.write(f"""---
+layout: post
+---
+{title}
+""")

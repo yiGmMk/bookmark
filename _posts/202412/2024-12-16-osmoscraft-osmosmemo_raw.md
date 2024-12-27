@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: GitHub - osmoscraft/osmosmemo: Turn GitHub into a bookmark manager
 
 URL Source: https://github.com/osmoscraft/osmosmemo
@@ -208,9 +211,9 @@ Last commit message
 
 Last commit date
 
- |
-| --- | --- | --- | --- |
-| 
+ |     |
+ | --- |  |  |  |
+ |     |
 
 Latest commit
 -------------

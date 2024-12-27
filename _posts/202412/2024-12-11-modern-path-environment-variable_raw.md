@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: Modern PATH environment variable
 
 URL Source: https://blog.izissise.net/posts/env-path/

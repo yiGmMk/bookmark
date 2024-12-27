@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Zeli - 用中文阅读Hacker News和AI论文
 - URL: [原文](https://zeli.app/zh)
 - Added At: 2024-12-13 09:00:14

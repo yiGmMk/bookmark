@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Title: 这样设置Prompt，让ChatGPT输出更好的效果！为ChatGPT提供更合适的Prompt输入，我们就能得到更优质的 - 掘金
 
 URL Source: https://juejin.cn/post/7232480698879623223

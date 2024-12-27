@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # PH今日热榜 - Decohack
 - URL: https://decohack.com/category/producthunt/
 - Added At: 2024-12-11 03:40:49

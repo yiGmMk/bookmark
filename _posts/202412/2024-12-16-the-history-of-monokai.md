@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # The history of Monokai
 - URL: [原文](https://monokai.pro/history)
 - Added At: 2024-12-16 08:11:44
