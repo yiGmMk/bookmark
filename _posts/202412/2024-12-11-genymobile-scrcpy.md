@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Genymobile/scrcpy
 - URL: [原文](https://github.com/Genymobile/scrcpy)
 - Added At: 2024-12-11 09:38:37
