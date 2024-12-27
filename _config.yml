@@ -1,7 +1,5 @@
 title: Bookmark Collection
 description: A collection of interesting bookmarks and articles
-baseurl: "/" # 仓库名称作为baseurl
-url: "" # 这里会根据GitHub Pages自动设置
 google_analytics: G-4ZMS4MK5S7
 theme: minima
 #remote_theme: pages-themes/architect@v0.2.0
