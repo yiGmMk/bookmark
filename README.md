@@ -1,3 +1,4 @@
+- [sing1ee/deepseekCoder](https://github.com/sing1ee/deepseekCoder) 使用deepseek v3写代码 #nosummary#tool
 - [在线图片编辑器 - PhotoKit.com](https://photokit.com/editor/?lang=zh) #nosummary
 - [12 days of OpenAI: The Ars Technica recap](https://arstechnica.com/information-technology/2024/12/12-days-of-openai-the-ars-technica-recap/) openai 12天发布会 #translate
 - [OpenAI's o3 suggests AI models are scaling in new ways — but so are the costs | TechCrunch](https://techcrunch.com/2024/12/23/openais-o3-suggests-ai-models-are-scaling-in-new-ways-but-so-are-the-costs/) #translate
