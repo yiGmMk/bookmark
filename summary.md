@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-03) [Godview](_posts/202501/2025-01-03-godview.md)
 - (2024-12-25) [12 days of OpenAI: The Ars Technica recap](_posts/202412/2024-12-25-12-days-of-openai-the-ars-technica-recap.md)
 - (2024-12-25) [OpenAI's o3 suggests AI models are scaling in new ways — but so are the costs | TechCrunch](_posts/202412/2024-12-25-openai%27s-o3-suggests-ai-models-are-scaling-in-new-ways-%E2%80%94-but-so-are-the-costs-techcrunch.md)
 - (2024-12-23) [Understanding Google’s Quantum Error Correction Breakthrough](_posts/202412/2024-12-23-understanding-google%E2%80%99s-quantum-error-correction-breakthrough.md)
