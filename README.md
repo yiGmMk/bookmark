@@ -1,3 +1,4 @@
+- [Godview](https://godview.ai/) 语义化地图，用自然语言查询地图，比如输入“请展示上海的前10大图书馆” #tool#ai
 - [sing1ee/deepseekCoder](https://github.com/sing1ee/deepseekCoder) 使用deepseek v3写代码 #nosummary#tool
 - [在线图片编辑器 - PhotoKit.com](https://photokit.com/editor/?lang=zh) #nosummary
 - [12 days of OpenAI: The Ars Technica recap](https://arstechnica.com/information-technology/2024/12/12-days-of-openai-the-ars-technica-recap/) openai 12天发布会 #translate
