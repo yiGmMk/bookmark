@@ -2,6 +2,7 @@ import re
 from typing import List, Optional
 import requests
 import json,os
+import time
 from datetime import datetime
 from pathlib import Path
 from dataclasses import dataclass, asdict
@@ -12,7 +13,7 @@ TRANSLATE_TAG: str="#translate"
 DATA_PATH_NAME: str="data"
 
 @log_execution_time
-def translate_text(website_url: str,task_type="翻译") -> str:
+def translate_text(website_url: str, task_type="翻译") -> str:
     api_key: str = os.environ['DIFY_API_TRANSLATE']
     url = 'https://api.dify.ai/v1/workflows/run'
     headers = {
@@ -22,15 +23,29 @@ def translate_text(website_url: str,task_type="翻译") -> str:
     data = {
         "inputs": {
             "input_url": website_url,
-            "task_type":task_type,
+            "task_type": task_type,
         },
         "response_mode": "blocking",
         "user": "github"
     }
 
-    response = requests.post(url, headers=headers, json=data)
-    response_data = response.json()
-    return response_data["data"]['outputs']['text']
+    max_retries = 3
+    retry_delay = 10
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(url, headers=headers, json=data)
+            response_data = response.json()
+            if 'data' in response_data and 'outputs' in response_data['data'] and 'text' in response_data['data']['outputs']:
+                return response_data["data"]['outputs']['text']
+            logging.warning(f"Attempt {attempt + 1}: Invalid response format")
+        except Exception as e:
+            logging.error(f"Attempt {attempt + 1} failed: {str(e)}")
+        
+        if attempt < max_retries - 1:
+            time.sleep(retry_delay)
+    
+    raise Exception("Failed to get valid translation after maximum retries")
 
 @log_execution_time
 def process_bookmark_file():
