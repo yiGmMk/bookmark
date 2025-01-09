@@ -1,3 +1,4 @@
+- [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) MCP入门 #ai#translate
 - [Building effective agents](https://www.anthropic.com/research/building-effective-agents) 如何有效构建Agent #tool#translate#ai#claude
 - [Everything I built with Claude Artifacts this week](https://simonwillison.net/2024/Oct/21/claude-artifacts/) simonwillison 介绍他一周用Claude Artifacts写的十几个小工具 #blog#ai#tool#translate
 - [tools.simonwillison.net](https://tools.simonwillison.net/) simonwillison写的很多在线工具 #tool#nosummary#translate
