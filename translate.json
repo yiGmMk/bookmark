@@ -58,5 +58,11 @@
     "title": "Everything I built with Claude Artifacts this week",
     "url": "https://simonwillison.net/2024/Oct/21/claude-artifacts/",
     "timestamp": 1736149685
+  },
+  {
+    "month": "202501",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "timestamp": 1736385432
   }
 ]
