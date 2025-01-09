@@ -178,5 +178,11 @@
     "title": "Building effective agents",
     "url": "https://www.anthropic.com/research/building-effective-agents",
     "timestamp": 1736385458
+  },
+  {
+    "month": "202501",
+    "title": "Introducing the Model Context Protocol",
+    "url": "https://www.anthropic.com/news/model-context-protocol",
+    "timestamp": 1736390014
   }
 ]

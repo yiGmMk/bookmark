@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-09) [Introducing the Model Context Protocol](_posts/202501/2025-01-09-introducing-the-model-context-protocol.md)
 - (2025-01-09) [Building effective agents](_posts/202501/2025-01-09-building-effective-agents.md)
 - (2025-01-06) [Everything I built with Claude Artifacts this week](_posts/202501/2025-01-06-everything-i-built-with-claude-artifacts-this-week.md)
 - (2025-01-06) [Claude Artifacts: The Beginner's Guide](_posts/202501/2025-01-06-claude-artifacts-the-beginner%27s-guide.md)
