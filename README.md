@@ -1,3 +1,4 @@
+- [段永平1月5日重返母校浙江大学，与现场观众进行交流，这是2万字的现场实录](https://mp.weixin.qq.com/s/EulYyzGU5fuA3Lv0wgS8hw) #blog
 - [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) MCP入门 #ai#translate
 - [Building effective agents](https://www.anthropic.com/research/building-effective-agents) 如何有效构建Agent #tool#translate#ai#claude
 - [Everything I built with Claude Artifacts this week](https://simonwillison.net/2024/Oct/21/claude-artifacts/) simonwillison 介绍他一周用Claude Artifacts写的十几个小工具 #blog#ai#tool#translate
