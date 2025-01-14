@@ -1,3 +1,4 @@
+- [Systemd 定时器教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2018/03/systemd-timer.html) Systemd 入门指南 #blog#tool
 - [AI Coloring Page Generator - Create Unique Line Art with AI | ZColoring](https://zcoloring.com/) #tool#ai#nosummary
 - [段永平1月5日重返母校浙江大学，与现场观众进行交流，这是2万字的现场实录](https://mp.weixin.qq.com/s/EulYyzGU5fuA3Lv0wgS8hw) #blog
 - [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) MCP入门 #ai#translate
