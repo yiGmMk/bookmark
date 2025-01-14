@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-14) [Systemd 定时器教程 - 阮一峰的网络日志](_posts/202501/2025-01-14-systemd-%E5%AE%9A%E6%97%B6%E5%99%A8%E6%95%99%E7%A8%8B---%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97.md)
 - (2025-01-10) [段永平1月5日重返母校浙江大学，与现场观众进行交流，这是2万字的现场实录](_posts/202501/2025-01-10-%E6%AE%B5%E6%B0%B8%E5%B9%B31%E6%9C%885%E6%97%A5%E9%87%8D%E8%BF%94%E6%AF%8D%E6%A0%A1%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%EF%BC%8C%E4%B8%8E%E7%8E%B0%E5%9C%BA%E8%A7%82%E4%BC%97%E8%BF%9B%E8%A1%8C%E4%BA%A4%E6%B5%81%EF%BC%8C%E8%BF%99%E6%98%AF2%E4%B8%87%E5%AD%97%E7%9A%84%E7%8E%B0%E5%9C%BA%E5%AE%9E%E5%BD%95.md)
 - (2025-01-09) [Introducing the Model Context Protocol](_posts/202501/2025-01-09-introducing-the-model-context-protocol.md)
 - (2025-01-09) [Building effective agents](_posts/202501/2025-01-09-building-effective-agents.md)
