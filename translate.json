@@ -70,5 +70,11 @@
     "title": "Introducing the Model Context Protocol",
     "url": "https://www.anthropic.com/news/model-context-protocol",
     "timestamp": 1736389345
+  },
+  {
+    "month": "202501",
+    "title": "模型上下文协议(MCP)入门(1)",
+    "url": "https://modelcontextprotocol.io/introduction",
+    "timestamp": 1736848287
   }
 ]
