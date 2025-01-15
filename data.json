@@ -196,5 +196,11 @@
     "title": "Systemd 定时器教程 - 阮一峰的网络日志",
     "url": "https://www.ruanyifeng.com/blog/2018/03/systemd-timer.html",
     "timestamp": 1736843026
+  },
+  {
+    "month": "202501",
+    "title": "CPU与GPU",
+    "url": "https://codingstuff.substack.com/p/if-gpus-are-so-good-why-do-we-still",
+    "timestamp": 1736910793
   }
 ]
