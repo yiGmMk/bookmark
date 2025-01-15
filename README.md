@@ -1,3 +1,4 @@
+- [CPU与GPU](https://codingstuff.substack.com/p/if-gpus-are-so-good-why-do-we-still) if-gpus-are-so-good-why-do-we-still #tool#blog#translate
 - [模型上下文协议(MCP)入门(1)](https://modelcontextprotocol.io/introduction) #ai#translate
 - [Systemd 定时器教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2018/03/systemd-timer.html) Systemd 入门指南 #blog#tool
 - [AI Coloring Page Generator - Create Unique Line Art with AI | ZColoring](https://zcoloring.com/) #tool#ai#nosummary
