@@ -202,5 +202,11 @@
     "title": "CPU与GPU",
     "url": "https://codingstuff.substack.com/p/if-gpus-are-so-good-why-do-we-still",
     "timestamp": 1736910793
+  },
+  {
+    "month": "202503",
+    "title": "DeepSearch/DeepResearch 实施实用指南",
+    "url": "https://jina.ai/news/a-practical-guide-to-implementing-deepsearch-deepresearch",
+    "timestamp": 1742459499
   }
 ]
