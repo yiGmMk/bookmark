@@ -1,3 +1,4 @@
+- [JavaScript 教程](https://zh.javascript.info/intro) zh.javascript.info
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) Open Source Alternative to Vercel, Netlify and Heroku. #tool#serverless
 - [OpenAI开源Agent SDK，分钟级构建AI Agent应用 ](https://www.53ai.com/news/OpenSourceLLM/2025031263025.html) OpenAI Agent框架 #ai
 - [Server-Sent Events (SSE) Are Underrated](https://igorstechnoclub.com/server-sent-events-sse-are-underrated/) 详细介绍“服务器发送事件”是什么，以及目前的 AI 服务如何使用它。 #ai#translate
