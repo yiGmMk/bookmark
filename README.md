@@ -1,3 +1,4 @@
+- [[178论坛]前天给儿子点了个陪玩，效果拔群。](https://nga.178.com/read.php?tid=43820515)
 - [JavaScript 教程](https://zh.javascript.info/intro) zh.javascript.info
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) Open Source Alternative to Vercel, Netlify and Heroku. #tool#serverless
 - [OpenAI开源Agent SDK，分钟级构建AI Agent应用 ](https://www.53ai.com/news/OpenSourceLLM/2025031263025.html) OpenAI Agent框架 #ai
