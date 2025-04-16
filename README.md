@@ -1,3 +1,4 @@
+- [阮一峰: 为什么写博客](https://github.com/ruanyf/articles/blob/master/blogbook/1000-10-00-why-blogging.md)
 - [[178论坛]前天给儿子点了个陪玩，效果拔群。](https://nga.178.com/read.php?tid=43820515)
 - [[178论坛]前天给儿子点了个陪玩，效果拔群。](https://nga.178.com/read.php?tid=43820515)
 - [JavaScript 教程](https://zh.javascript.info/intro) zh.javascript.info
