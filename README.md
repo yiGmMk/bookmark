@@ -1,3 +1,4 @@
+- [使用阿里云负载均衡时获取客户端真实IP的方法](https://developer.aliyun.com/article/1117336)
 - [ModelScope 魔搭社区 mcp 广场](https://modelscope.cn/docs/mcp/intro)
 - [内置 AI  |  AI on Chrome ](https://developer.chrome.com/docs/ai/built-in?hl=zh-cn) 浏览器本地内置AI #ai#tool
 - [阮一峰: 为什么写博客](https://github.com/ruanyf/articles/blob/master/blogbook/1000-10-00-why-blogging.md)
