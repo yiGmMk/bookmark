@@ -1,3 +1,4 @@
+- [Flash Loans (闪电贷) 是什么？ | 代码家](https://daimajia.com/2022/05/23/what-is-flash-loans/) #web3
 - [后端服务器通过ALB获取客户端真实IP](https://help.aliyun.com/zh/slb/application-load-balancer/use-cases/preserve-client-ip-addresses)
 - [使用阿里云负载均衡时获取客户端真实IP的方法](https://developer.aliyun.com/article/1117336)
 - [ModelScope 魔搭社区 mcp 广场](https://modelscope.cn/docs/mcp/intro)
