@@ -1,3 +1,4 @@
+- [自部署 DeepLX 满足日常翻译需求](https://topnec.org/blog/how-to-use-deeplx/) #tool
 - [What is LiDAR and How Does it Work? | Synopsys](https://www.synopsys.com/glossary/what-is-lidar.html) #translate#blog
 - [Flash Loans (闪电贷) 是什么？ | 代码家](https://daimajia.com/2022/05/23/what-is-flash-loans/) #web3
 - [后端服务器通过ALB获取客户端真实IP](https://help.aliyun.com/zh/slb/application-load-balancer/use-cases/preserve-client-ip-addresses)
