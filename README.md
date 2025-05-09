@@ -1,3 +1,4 @@
+- [个人网站博客可以尝试的 100 件事 - Another Dayu](https://anotherdayu.com/2025/6940/)
 - [Indie Hacking Year 1 Review](https://t31k.medium.com/indie-hacking-year-1-review-0d695880ebfb) 做独立开发的几点反思 #translate
 - [自部署 DeepLX 满足日常翻译需求](https://topnec.org/blog/how-to-use-deeplx/) #tool
 - [What is LiDAR and How Does it Work? | Synopsys](https://www.synopsys.com/glossary/what-is-lidar.html) #translate#blog
