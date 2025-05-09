@@ -1,3 +1,4 @@
+- [Indie Hacking Year 1 Review](https://t31k.medium.com/indie-hacking-year-1-review-0d695880ebfb) 做独立开发的几点反思 #translate
 - [自部署 DeepLX 满足日常翻译需求](https://topnec.org/blog/how-to-use-deeplx/) #tool
 - [What is LiDAR and How Does it Work? | Synopsys](https://www.synopsys.com/glossary/what-is-lidar.html) #translate#blog
 - [Flash Loans (闪电贷) 是什么？ | 代码家](https://daimajia.com/2022/05/23/what-is-flash-loans/) #web3
