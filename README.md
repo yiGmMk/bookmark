@@ -1,3 +1,4 @@
+- [MCP 终极指南](https://guangzhengli.com/blog/zh/model-context-protocol) #ai#mcp
 - [[2022.03] GitHub 加速终极教程 -         Allen Hua 的网络博客](https://hellodk.cn/post/975) #tool
 - [面对MCP"工具投毒"，我们该如何应对](https://mp.weixin.qq.com/s/EJLb1IwqbPF3VSDkJu099g) #ai
 - [个人网站博客可以尝试的 100 件事 - Another Dayu](https://anotherdayu.com/2025/6940/)
