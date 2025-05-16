@@ -1,3 +1,4 @@
+- [这 3 个 MCP 开源项目，牛逼哄哄。](https://mp.weixin.qq.com/s/8vXJyCx1dRUH32SYYsrVdg) mcp工具 #ai
 - [MCP 终极指南](https://guangzhengli.com/blog/zh/model-context-protocol) #ai#mcp
 - [[2022.03] GitHub 加速终极教程 -         Allen Hua 的网络博客](https://hellodk.cn/post/975) #tool
 - [面对MCP"工具投毒"，我们该如何应对](https://mp.weixin.qq.com/s/EJLb1IwqbPF3VSDkJu099g) #ai
