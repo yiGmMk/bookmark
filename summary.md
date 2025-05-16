@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-05-16) [MCP 终极指南](_posts/202505/2025-05-16-mcp-%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97.md)
 - (2025-05-13) [[2022.03] GitHub 加速终极教程 -         Allen Hua 的网络博客](_posts/202505/2025-05-13-%5B2022.03%5D-github-%E5%8A%A0%E9%80%9F%E7%BB%88%E6%9E%81%E6%95%99%E7%A8%8B---allen-hua-%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8D%9A%E5%AE%A2.md)
 - (2025-05-13) [面对MCP"工具投毒"，我们该如何应对](_posts/202505/2025-05-13-%E9%9D%A2%E5%AF%B9mcp-%E5%B7%A5%E5%85%B7%E6%8A%95%E6%AF%92-%EF%BC%8C%E6%88%91%E4%BB%AC%E8%AF%A5%E5%A6%82%E4%BD%95%E5%BA%94%E5%AF%B9.md)
 - (2025-05-09) [个人网站博客可以尝试的 100 件事 - Another Dayu](_posts/202505/2025-05-09-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%8D%9A%E5%AE%A2%E5%8F%AF%E4%BB%A5%E5%B0%9D%E8%AF%95%E7%9A%84-100-%E4%BB%B6%E4%BA%8B---another-dayu.md)
