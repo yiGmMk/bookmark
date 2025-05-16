@@ -1,3 +1,4 @@
+- [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) mcp中转调用工具,通过一个mcp可调用众多其他mcp工具 #ai#mcp
 - [这 3 个 MCP 开源项目，牛逼哄哄。](https://mp.weixin.qq.com/s/8vXJyCx1dRUH32SYYsrVdg) mcp工具 #ai
 - [MCP 终极指南](https://guangzhengli.com/blog/zh/model-context-protocol) #ai#mcp
 - [[2022.03] GitHub 加速终极教程 -         Allen Hua 的网络博客](https://hellodk.cn/post/975) #tool
