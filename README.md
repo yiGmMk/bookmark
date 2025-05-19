@@ -1,3 +1,4 @@
+- [终端AI利器：两款效率神器助你码力十足](https://programnotes.cn/ai-in-terminal/) #ai#tool
 - [现在农村老年入怎么样才能平稳过完余生 - V2EX](https://www.v2ex.com/t/1132607)
 - [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) mcp中转调用工具,通过一个mcp可调用众多其他mcp工具 #ai#mcp
 - [这 3 个 MCP 开源项目，牛逼哄哄。](https://mp.weixin.qq.com/s/8vXJyCx1dRUH32SYYsrVdg) mcp工具 #ai
