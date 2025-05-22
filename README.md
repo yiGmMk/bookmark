@@ -1,3 +1,4 @@
+- [坑爹的字符集问题：踩到了 MySQL 的 bug - V2EX](https://www.v2ex.com/t/1133409) utf8mb4_bin 的Pad_attribute 是是 PAD SPACE，表示对齐长度时，后面补空格,导致使用该字符集时,字段做索引可能排序会不对 #blog
 - [终端AI利器：两款效率神器助你码力十足](https://programnotes.cn/ai-in-terminal/) #ai#tool
 - [现在农村老年入怎么样才能平稳过完余生 - V2EX](https://www.v2ex.com/t/1132607)
 - [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) mcp中转调用工具,通过一个mcp可调用众多其他mcp工具 #ai#mcp
