@@ -106,5 +106,11 @@
     "title": "Bash 脚本执行心跳测试的写法",
     "url": "https://heitorpb.github.io/bla/timeout/",
     "timestamp": 1748567847
+  },
+  {
+    "month": "202505",
+    "title": "f2,一个命令行的文件批量改名工具，功能较强",
+    "url": "https://simonwillison.net/2025/May/24/f2/",
+    "timestamp": 1748570953
   }
 ]
