@@ -1,3 +1,4 @@
+- [f2,一个命令行的文件批量改名工具，功能较强](https://simonwillison.net/2025/May/24/f2/) #tool#translate
 - [Bash 脚本执行心跳测试的写法](https://heitorpb.github.io/bla/timeout/) #ai#translate
 - [坑爹的字符集问题：踩到了 MySQL 的 bug - V2EX](https://www.v2ex.com/t/1133409) utf8mb4_bin 的Pad_attribute 是是 PAD SPACE，表示对齐长度时，后面补空格,导致使用该字符集时,字段做索引可能排序会不对 #blog
 - [终端AI利器：两款效率神器助你码力十足](https://programnotes.cn/ai-in-terminal/) #ai#tool
