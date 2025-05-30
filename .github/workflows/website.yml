@@ -1,4 +1,4 @@
-name: Website Task
+name: Translate And PR
 
 on:
   push:
