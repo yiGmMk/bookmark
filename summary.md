@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-05-30) [Bash 脚本执行心跳测试的写法](_posts/202505/2025-05-30-bash-%E8%84%9A%E6%9C%AC%E6%89%A7%E8%A1%8C%E5%BF%83%E8%B7%B3%E6%B5%8B%E8%AF%95%E7%9A%84%E5%86%99%E6%B3%95.md)
 - (2025-05-22) [坑爹的字符集问题：踩到了 MySQL 的 bug - V2EX](_posts/202505/2025-05-22-%E5%9D%91%E7%88%B9%E7%9A%84%E5%AD%97%E7%AC%A6%E9%9B%86%E9%97%AE%E9%A2%98%EF%BC%9A%E8%B8%A9%E5%88%B0%E4%BA%86-mysql-%E7%9A%84-bug---v2ex.md)
 - (2025-05-19) [终端AI利器：两款效率神器助你码力十足](_posts/202505/2025-05-19-%E7%BB%88%E7%AB%AFai%E5%88%A9%E5%99%A8%EF%BC%9A%E4%B8%A4%E6%AC%BE%E6%95%88%E7%8E%87%E7%A5%9E%E5%99%A8%E5%8A%A9%E4%BD%A0%E7%A0%81%E5%8A%9B%E5%8D%81%E8%B6%B3.md)
 - (2025-05-19) [现在农村老年入怎么样才能平稳过完余生 - V2EX](_posts/202505/2025-05-19-%E7%8E%B0%E5%9C%A8%E5%86%9C%E6%9D%91%E8%80%81%E5%B9%B4%E5%85%A5%E6%80%8E%E4%B9%88%E6%A0%B7%E6%89%8D%E8%83%BD%E5%B9%B3%E7%A8%B3%E8%BF%87%E5%AE%8C%E4%BD%99%E7%94%9F---v2ex.md)

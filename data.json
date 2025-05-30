@@ -316,5 +316,11 @@
     "title": "坑爹的字符集问题：踩到了 MySQL 的 bug - V2EX",
     "url": "https://www.v2ex.com/t/1133409",
     "timestamp": 1747876906
+  },
+  {
+    "month": "202505",
+    "title": "Bash 脚本执行心跳测试的写法",
+    "url": "https://heitorpb.github.io/bla/timeout/",
+    "timestamp": 1748567951
   }
 ]
