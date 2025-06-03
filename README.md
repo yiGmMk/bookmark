@@ -1,3 +1,4 @@
+- [分享一个纯 Go 实现的 Word 文档操作库 ](https://www.v2ex.com/t/1135912) go word文档工具 #tool
 - [直接推送Docker images到远程服务器](https://heitorpb.github.io/bla/push-docker-img/) #translate
 - [f2,一个命令行的文件批量改名工具，功能较强](https://simonwillison.net/2025/May/24/f2/) #tool#translate
 - [Bash 脚本执行心跳测试的写法](https://heitorpb.github.io/bla/timeout/) #ai#translate
