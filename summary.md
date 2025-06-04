@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-06-04) [Hugo使用Shortcode插入bilibili、Youtube视频](_posts/202506/2025-06-04-hugo%E4%BD%BF%E7%94%A8shortcode%E6%8F%92%E5%85%A5bilibili%E3%80%81youtube%E8%A7%86%E9%A2%91.md)
 - (2025-06-03) [Cline rules - Cline](_posts/202506/2025-06-03-cline-rules---cline.md)
 - (2025-06-03) [分享一个纯 Go 实现的 Word 文档操作库 ](_posts/202506/2025-06-03-%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E7%BA%AF-go-%E5%AE%9E%E7%8E%B0%E7%9A%84-word-%E6%96%87%E6%A1%A3%E6%93%8D%E4%BD%9C%E5%BA%93.md)
 - (2025-05-30) [后端服务器通过ALB获取客户端真实IP](_posts/202505/2025-05-30-%E5%90%8E%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%9A%E8%BF%87alb%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9C%9F%E5%AE%9Eip.md)

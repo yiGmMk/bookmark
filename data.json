@@ -352,5 +352,11 @@
     "title": "Cline rules - Cline",
     "url": "https://docs.cline.bot/features/cline-rules",
     "timestamp": 1748937843
+  },
+  {
+    "month": "202506",
+    "title": "Hugo使用Shortcode插入bilibili、Youtube视频",
+    "url": "https://blog.lufei.de/p/hugo%E4%BD%BF%E7%94%A8shortcode%E6%8F%92%E5%85%A5bilibiliyoutube%E8%A7%86%E9%A2%91/",
+    "timestamp": 1749052647
   }
 ]
