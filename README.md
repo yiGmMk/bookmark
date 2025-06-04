@@ -1,3 +1,4 @@
+- [Hugo使用Shortcode插入bilibili、Youtube视频](https://blog.lufei.de/p/hugo%E4%BD%BF%E7%94%A8shortcode%E6%8F%92%E5%85%A5bilibiliyoutube%E8%A7%86%E9%A2%91/) #blog
 - [Cline rules - Cline](https://docs.cline.bot/features/cline-rules) #ai#translate
 - [分享一个纯 Go 实现的 Word 文档操作库 ](https://www.v2ex.com/t/1135912) go word文档工具 #tool
 - [直接推送Docker images到远程服务器](https://heitorpb.github.io/bla/push-docker-img/) #translate
