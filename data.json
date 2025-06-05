@@ -358,5 +358,11 @@
     "title": "Hugo使用Shortcode插入bilibili、Youtube视频",
     "url": "https://blog.lufei.de/p/hugo%E4%BD%BF%E7%94%A8shortcode%E6%8F%92%E5%85%A5bilibiliyoutube%E8%A7%86%E9%A2%91/",
     "timestamp": 1749052647
+  },
+  {
+    "month": "202506",
+    "title": "利用GitHub Actions自动对仓库内图片进行无损压缩",
+    "url": "https://wiki.eryajf.net/pages/dbee9e/",
+    "timestamp": 1749088614
   }
 ]
