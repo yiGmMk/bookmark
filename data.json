@@ -370,5 +370,11 @@
     "title": "[ On | No ] syntactic support for error handling - The Go Programming Language",
     "url": "https://go.dev/blog/error-syntax",
     "timestamp": 1749175237
+  },
+  {
+    "month": "202506",
+    "title": "What is NLWeb?",
+    "url": "https://glama.ai/blog/2025-06-01-what-is-nlweb",
+    "timestamp": 1749175326
   }
 ]
