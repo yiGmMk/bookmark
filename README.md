@@ -1,3 +1,4 @@
+- [What is NLWeb?](https://glama.ai/blog/2025-06-01-what-is-nlweb) NLWeb 是微软新提出的一个接口协议，类似于 MCP 协议，是网站跟 AI 大模型的对话协议，方便大模型从网站获取数据。本文是这个协议的简介。 #ai#blog
 - [[ On | No ] syntactic support for error handling - The Go Programming Language](https://go.dev/blog/error-syntax) Go 不再修改错误处理的语法 #blog#go
 - [利用GitHub Actions自动对仓库内图片进行无损压缩](https://wiki.eryajf.net/pages/dbee9e/) #blog#tool
 - [Hugo使用Shortcode插入bilibili、Youtube视频](https://blog.lufei.de/p/hugo%E4%BD%BF%E7%94%A8shortcode%E6%8F%92%E5%85%A5bilibiliyoutube%E8%A7%86%E9%A2%91/) #blog
