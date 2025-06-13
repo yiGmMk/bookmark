@@ -1,3 +1,4 @@
+- [theopfr/somo](https://github.com/theopfr/somo) 查看端口占用的工具 #tool
 - [你每天都很急——多版本 - V2EX](https://www.v2ex.com/t/1137840) #ai#blog
 - [AutomaApp/automa](https://github.com/AutomaApp/automa) 与n8n类似的AI工作流插件，不过n8n是通过API与外界交互，而Automa链接外界的方式是模拟人类浏览器操作，自动化完成指定的浏览器操作。它同样可以集成AI的能力。 #ai#blog
 - [What is NLWeb?](https://glama.ai/blog/2025-06-01-what-is-nlweb) NLWeb 是微软新提出的一个接口协议，类似于 MCP 协议，是网站跟 AI 大模型的对话协议，方便大模型从网站获取数据。本文是这个协议的简介。 #ai#blog
