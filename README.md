@@ -1,3 +1,4 @@
+- [Linux 系统 OOM 排查指南_Linux 笔记](https://tendcode.com/subject/article/linux-oom/) #blog
 - [theopfr/somo](https://github.com/theopfr/somo) 查看端口占用的工具 #tool
 - [你每天都很急——多版本 - V2EX](https://www.v2ex.com/t/1137840) #ai#blog
 - [AutomaApp/automa](https://github.com/AutomaApp/automa) 与n8n类似的AI工作流插件，不过n8n是通过API与外界交互，而Automa链接外界的方式是模拟人类浏览器操作，自动化完成指定的浏览器操作。它同样可以集成AI的能力。 #ai#blog
