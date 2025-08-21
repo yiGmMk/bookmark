@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-08-21) [Claude Code 最佳实践](_posts/202508/2025-08-21-claude-code-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
 - (2025-08-21) [Claude Code Best Practices](_posts/202508/2025-08-21-claude-code-best-practices.md)
 - (2025-08-21) [工程师如何更好投资 - Tw93](_posts/202508/2025-08-21-%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E6%9B%B4%E5%A5%BD%E6%8A%95%E8%B5%84---tw93.md)
 - (2025-06-29) [Linux 系统 OOM 排查指南_Linux 笔记](_posts/202506/2025-06-29-linux-%E7%B3%BB%E7%BB%9F-oom-%E6%8E%92%E6%9F%A5%E6%8C%87%E5%8D%97_linux-%E7%AC%94%E8%AE%B0.md)
