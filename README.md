@@ -1,3 +1,4 @@
+- [Claude Code 最佳实践](https://ai.programnotes.cn/p/claude-code-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/) #ai#blog
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) #ai#translate
 - [一个半月高强度 Claude Code 使用后感受](https://onevcat.com/2025/08/claude-code/) #ai
 - [我感觉到的 AI Coding 对于程序员的影响 - Tw93](https://tw93.fun/2025-08-17/ai-coding.html) #ai#blog
