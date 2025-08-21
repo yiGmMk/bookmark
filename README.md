@@ -1,3 +1,4 @@
+- [我感觉到的 AI Coding 对于程序员的影响 - Tw93](https://tw93.fun/2025-08-17/ai-coding.html) #ai#blog
 - [工程师如何更好投资 - Tw93](https://tw93.fun/2025-07-17/money.html) 学习段永平的投资案例 #投资
 - [Linux 系统 OOM 排查指南_Linux 笔记](https://tendcode.com/subject/article/linux-oom/) #blog
 - [theopfr/somo](https://github.com/theopfr/somo) 查看端口占用的工具 #tool
